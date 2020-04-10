@@ -7,4 +7,5 @@ android {
         applicationId "com.koddev.notificationmusicplayer"
         minSdkVersion 15
         targetSdkVersion 29
-        v
+        versionCode 1
+        versionName "1.
