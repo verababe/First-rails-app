@@ -19,4 +19,5 @@ android {
     }
 }
 
-dependen
+dependencies {
+    implementation fileTree(dir: 'libs
