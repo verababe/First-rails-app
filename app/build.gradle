@@ -25,4 +25,6 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
     //add this library
-    implement
+    implementation 'androidx.media:media:1.1.0'
+    
+ 
