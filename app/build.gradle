@@ -27,4 +27,5 @@ dependencies {
     //add this library
     implementation 'androidx.media:media:1.1.0'
     
-    testImplementation 'junit:junit:
+    testImplementation 'junit:junit:4.12'
+    androidTestImple
