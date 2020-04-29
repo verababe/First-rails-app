@@ -28,4 +28,5 @@ dependencies {
     implementation 'androidx.media:media:1.1.0'
     
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.tes
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTest
