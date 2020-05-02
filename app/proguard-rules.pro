@@ -1,1 +1,2 @@
-# Add project specific ProGuar
+# Add project specific ProGuard rules here.
+# You can contro
