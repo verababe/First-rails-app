@@ -1,2 +1,2 @@
 # Add project specific ProGuard rules here.
-# You can contro
+# You can control the set of applied conf
