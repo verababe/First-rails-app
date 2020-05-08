@@ -5,4 +5,4 @@
 # For more details, see
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
-# I
+# If your project uses WebView with JS, uncomme
