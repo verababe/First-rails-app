@@ -6,4 +6,4 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # If your project uses WebView with JS, uncomment the following
-# and specify t
+# and specify the fully qualified class na
