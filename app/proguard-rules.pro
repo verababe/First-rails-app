@@ -14,4 +14,6 @@
 
 # Uncomment this to preserve the line number information for
 # debugging stack traces.
-#-keepattr
+#-keepattributes SourceFile,LineNumberTable
+
+# If you ke
