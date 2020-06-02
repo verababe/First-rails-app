@@ -11,4 +11,6 @@ import org.junit.runner.RunWith;
 import static org.junit.Assert.*;
 
 /**
- * Instrumented test, which will execute on an Andro
+ * Instrumented test, which will execute on an Android device.
+ *
+ * @see <a href="
