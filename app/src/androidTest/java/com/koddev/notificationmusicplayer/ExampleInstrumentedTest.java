@@ -17,4 +17,5 @@ import static org.junit.Assert.*;
  */
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
-    @Te
+    @Test
+    public void useAppConte
