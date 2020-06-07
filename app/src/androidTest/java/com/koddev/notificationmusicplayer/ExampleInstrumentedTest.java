@@ -19,4 +19,5 @@ import static org.junit.Assert.*;
 public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() {
-        // Context of th
+        // Context of the app under test.
+        Context appCo
