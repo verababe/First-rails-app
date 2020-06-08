@@ -20,4 +20,4 @@ public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() {
         // Context of the app under test.
-        Context appCo
+        Context appContext = InstrumentationRegistry.ge
