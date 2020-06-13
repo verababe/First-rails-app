@@ -22,4 +22,4 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.koddev.notificationmus
+        assertEquals("com.koddev.notificationmusicplayer", appContext.getPackageName())
