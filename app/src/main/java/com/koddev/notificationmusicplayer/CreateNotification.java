@@ -14,4 +14,6 @@ import androidx.core.app.NotificationManagerCompat;
 
 import com.koddev.notificationmusicplayer.Services.NotificationActionService;
 
-public class CreateN
+public class CreateNotification {
+
+    public static final Stri
