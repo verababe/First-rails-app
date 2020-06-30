@@ -16,4 +16,6 @@ import com.koddev.notificationmusicplayer.Services.NotificationActionService;
 
 public class CreateNotification {
 
-    public static final Stri
+    public static final String CHANNEL_ID = "channel1";
+
+    pu
