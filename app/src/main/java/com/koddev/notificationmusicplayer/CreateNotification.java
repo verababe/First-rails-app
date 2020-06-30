@@ -18,4 +18,4 @@ public class CreateNotification {
 
     public static final String CHANNEL_ID = "channel1";
 
-    pu
+    public static final String ACTION_PREVI
