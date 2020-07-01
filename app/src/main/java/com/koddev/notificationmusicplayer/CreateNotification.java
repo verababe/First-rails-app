@@ -19,4 +19,4 @@ public class CreateNotification {
     public static final String CHANNEL_ID = "channel1";
 
     public static final String ACTION_PREVIUOS = "actionprevious";
-    public 
+    public static final String ACTION_
