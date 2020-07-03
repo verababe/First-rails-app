@@ -22,4 +22,6 @@ public class CreateNotification {
     public static final String ACTION_PLAY = "actionplay";
     public static final String ACTION_NEXT = "actionnext";
 
-    public static Noti
+    public static Notification notification;
+
+    public 
