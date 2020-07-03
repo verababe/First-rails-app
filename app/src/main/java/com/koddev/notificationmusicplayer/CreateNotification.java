@@ -20,4 +20,4 @@ public class CreateNotification {
 
     public static final String ACTION_PREVIUOS = "actionprevious";
     public static final String ACTION_PLAY = "actionplay";
-    public static
+    public static final String ACTION_NEXT = "
