@@ -31,4 +31,4 @@ public class CreateNotification {
             NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(context);
             MediaSessionCompat mediaSessionCompat = new MediaSessionCompat( context, "tag");
 
-            Bitmap icon = BitmapFact
+            Bitmap icon = BitmapFactory.decodeResource(context.getResourc
