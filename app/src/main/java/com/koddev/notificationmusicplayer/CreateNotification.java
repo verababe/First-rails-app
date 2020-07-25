@@ -37,4 +37,5 @@ public class CreateNotification {
             int drw_previous;
             if (pos == 0){
                 pendingIntentPrevious = null;
-  
+                drw_previous = 0;
+            } else {
