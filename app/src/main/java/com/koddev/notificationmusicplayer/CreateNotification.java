@@ -39,4 +39,4 @@ public class CreateNotification {
                 pendingIntentPrevious = null;
                 drw_previous = 0;
             } else {
-                Intent intentPrevio
+                Intent intentPrevious = new Intent(context, NotificationA
