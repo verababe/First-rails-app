@@ -40,4 +40,5 @@ public class CreateNotification {
                 drw_previous = 0;
             } else {
                 Intent intentPrevious = new Intent(context, NotificationActionService.class)
-                        .setAction(ACTION_PRE
+                        .setAction(ACTION_PREVIUOS);
+                pendingIntentPrevi
