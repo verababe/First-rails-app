@@ -42,4 +42,4 @@ public class CreateNotification {
                 Intent intentPrevious = new Intent(context, NotificationActionService.class)
                         .setAction(ACTION_PREVIUOS);
                 pendingIntentPrevious = PendingIntent.getBroadcast(context, 0,
-                        intentPrevio
+                        intentPrevious, PendingIntent.FLAG_UPDATE_
