@@ -43,4 +43,4 @@ public class CreateNotification {
                         .setAction(ACTION_PREVIUOS);
                 pendingIntentPrevious = PendingIntent.getBroadcast(context, 0,
                         intentPrevious, PendingIntent.FLAG_UPDATE_CURRENT);
-                
+                drw_previous = R.drawable.ic_sk
