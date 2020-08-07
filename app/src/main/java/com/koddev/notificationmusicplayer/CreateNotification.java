@@ -49,4 +49,6 @@ public class CreateNotification {
             Intent intentPlay = new Intent(context, NotificationActionService.class)
                     .setAction(ACTION_PLAY);
             PendingIntent pendingIntentPlay = PendingIntent.getBroadcast(context, 0,
-                    intentPlay, PendingIntent.FLAG_UPDATE
+                    intentPlay, PendingIntent.FLAG_UPDATE_CURRENT);
+
+            PendingIn
