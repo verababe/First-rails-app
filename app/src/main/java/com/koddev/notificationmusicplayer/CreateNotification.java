@@ -51,4 +51,5 @@ public class CreateNotification {
             PendingIntent pendingIntentPlay = PendingIntent.getBroadcast(context, 0,
                     intentPlay, PendingIntent.FLAG_UPDATE_CURRENT);
 
-            PendingIn
+            PendingIntent pendingIntentNext;
+            int drw_nex
