@@ -54,4 +54,5 @@ public class CreateNotification {
             PendingIntent pendingIntentNext;
             int drw_next;
             if (pos == size){
-       
+                pendingIntentNext = null;
+             
