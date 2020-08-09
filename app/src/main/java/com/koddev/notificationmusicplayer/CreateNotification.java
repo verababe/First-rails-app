@@ -52,4 +52,6 @@ public class CreateNotification {
                     intentPlay, PendingIntent.FLAG_UPDATE_CURRENT);
 
             PendingIntent pendingIntentNext;
-            int drw_nex
+            int drw_next;
+            if (pos == size){
+       
