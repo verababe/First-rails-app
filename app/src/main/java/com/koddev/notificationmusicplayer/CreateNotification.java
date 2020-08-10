@@ -57,4 +57,4 @@ public class CreateNotification {
                 pendingIntentNext = null;
                 drw_next = 0;
             } else {
-                Intent i
+                Intent intentNext = new Intent(context, Notificati
