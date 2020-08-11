@@ -58,4 +58,5 @@ public class CreateNotification {
                 drw_next = 0;
             } else {
                 Intent intentNext = new Intent(context, NotificationActionService.class)
-                
+                        .setAction(ACTION_NEXT);
+   
