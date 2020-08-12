@@ -59,4 +59,5 @@ public class CreateNotification {
             } else {
                 Intent intentNext = new Intent(context, NotificationActionService.class)
                         .setAction(ACTION_NEXT);
-                pendingIntentNext = PendingIntent.getBroadcas
+                pendingIntentNext = PendingIntent.getBroadcast(context, 0,
+                        
