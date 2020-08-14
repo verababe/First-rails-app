@@ -60,4 +60,4 @@ public class CreateNotification {
                 Intent intentNext = new Intent(context, NotificationActionService.class)
                         .setAction(ACTION_NEXT);
                 pendingIntentNext = PendingIntent.getBroadcast(context, 0,
-                        
+                        intentNext, PendingIntent.FLA
