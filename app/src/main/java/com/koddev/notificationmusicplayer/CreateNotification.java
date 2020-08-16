@@ -61,4 +61,4 @@ public class CreateNotification {
                         .setAction(ACTION_NEXT);
                 pendingIntentNext = PendingIntent.getBroadcast(context, 0,
                         intentNext, PendingIntent.FLAG_UPDATE_CURRENT);
-        
+                drw_next = R.drawable.ic_ski
