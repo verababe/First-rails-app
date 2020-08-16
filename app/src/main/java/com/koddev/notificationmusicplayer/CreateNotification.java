@@ -62,4 +62,7 @@ public class CreateNotification {
                 pendingIntentNext = PendingIntent.getBroadcast(context, 0,
                         intentNext, PendingIntent.FLAG_UPDATE_CURRENT);
                 drw_next = R.drawable.ic_skip_next_black_24dp;
-            
+            }
+
+            //create notification
+ 
