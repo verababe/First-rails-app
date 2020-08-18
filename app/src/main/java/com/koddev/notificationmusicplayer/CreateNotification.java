@@ -65,4 +65,4 @@ public class CreateNotification {
             }
 
             //create notification
-            notification = new Notific
+            notification = new NotificationCompat.Builder(context, CHANNEL_I
