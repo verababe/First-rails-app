@@ -66,4 +66,5 @@ public class CreateNotification {
 
             //create notification
             notification = new NotificationCompat.Builder(context, CHANNEL_ID)
-                    .setSmallIcon(R.drawable.ic_mus
+                    .setSmallIcon(R.drawable.ic_music_note)
+            
