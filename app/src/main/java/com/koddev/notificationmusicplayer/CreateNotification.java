@@ -69,4 +69,5 @@ public class CreateNotification {
                     .setSmallIcon(R.drawable.ic_music_note)
                     .setContentTitle(track.getTitle())
                     .setContentText(track.getArtist())
-            
+                    .setLargeIcon(icon)
+       
