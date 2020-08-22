@@ -68,4 +68,5 @@ public class CreateNotification {
             notification = new NotificationCompat.Builder(context, CHANNEL_ID)
                     .setSmallIcon(R.drawable.ic_music_note)
                     .setContentTitle(track.getTitle())
-                    .setContentText(t
+                    .setContentText(track.getArtist())
+            
