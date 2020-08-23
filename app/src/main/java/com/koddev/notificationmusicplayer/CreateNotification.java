@@ -71,4 +71,5 @@ public class CreateNotification {
                     .setContentText(track.getArtist())
                     .setLargeIcon(icon)
                     .setOnlyAlertOnce(true)//show notification for only first time
-           
+                    .setShowWhen(false)
+   
