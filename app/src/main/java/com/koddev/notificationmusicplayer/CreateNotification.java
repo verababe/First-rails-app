@@ -72,4 +72,5 @@ public class CreateNotification {
                     .setLargeIcon(icon)
                     .setOnlyAlertOnce(true)//show notification for only first time
                     .setShowWhen(false)
-                    .addAction(drw_previous, "Previous", pendingIntentPre
+                    .addAction(drw_previous, "Previous", pendingIntentPrevious)
+                    .addAction
