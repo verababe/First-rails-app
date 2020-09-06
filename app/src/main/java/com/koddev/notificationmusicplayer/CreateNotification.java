@@ -74,4 +74,5 @@ public class CreateNotification {
                     .setShowWhen(false)
                     .addAction(drw_previous, "Previous", pendingIntentPrevious)
                     .addAction(playbutton, "Play", pendingIntentPlay)
-                    .addAction(drw_next,
+                    .addAction(drw_next, "Next", pendingIntentNext)
+         
