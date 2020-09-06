@@ -73,4 +73,5 @@ public class CreateNotification {
                     .setOnlyAlertOnce(true)//show notification for only first time
                     .setShowWhen(false)
                     .addAction(drw_previous, "Previous", pendingIntentPrevious)
-                    .addAction(playbutton, "Play", pendingIntentPlay
+                    .addAction(playbutton, "Play", pendingIntentPlay)
+                    .addAction(drw_next,
