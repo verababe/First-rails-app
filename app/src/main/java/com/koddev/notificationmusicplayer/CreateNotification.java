@@ -75,4 +75,4 @@ public class CreateNotification {
                     .addAction(drw_previous, "Previous", pendingIntentPrevious)
                     .addAction(playbutton, "Play", pendingIntentPlay)
                     .addAction(drw_next, "Next", pendingIntentNext)
-         
+                    .setStyle(new androidx.me
