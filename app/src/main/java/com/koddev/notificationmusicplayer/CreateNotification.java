@@ -76,4 +76,4 @@ public class CreateNotification {
                     .addAction(playbutton, "Play", pendingIntentPlay)
                     .addAction(drw_next, "Next", pendingIntentNext)
                     .setStyle(new androidx.media.app.NotificationCompat.MediaStyle()
-                        .set
+                        .setShowActionsInCompactView(0, 
