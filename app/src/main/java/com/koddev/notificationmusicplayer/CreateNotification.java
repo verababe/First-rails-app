@@ -77,4 +77,5 @@ public class CreateNotification {
                     .addAction(drw_next, "Next", pendingIntentNext)
                     .setStyle(new androidx.media.app.NotificationCompat.MediaStyle()
                         .setShowActionsInCompactView(0, 1, 2)
-                        .setMediaSession(mediaSessionCompat.getSessionToke
+                        .setMediaSession(mediaSessionCompat.getSessionToken()))
+                    .setPriorit
