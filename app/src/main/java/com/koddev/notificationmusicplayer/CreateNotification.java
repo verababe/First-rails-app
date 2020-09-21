@@ -81,4 +81,6 @@ public class CreateNotification {
                     .setPriority(NotificationCompat.PRIORITY_LOW)
                     .build();
 
-            notificationManager
+            notificationManagerCompat.notify(1, notification);
+
+  
