@@ -67,3 +67,45 @@ public class MainActivity extends AppCompatActivity implements Playable {
 
             notificationManager = getSystemService(NotificationManager.class);
             if (notificationManager != null){
+                notificationManager.createNotificationChannel(channel);
+            }
+        }
+    }
+
+    //populate list with tracks
+    private void popluateTracks(){
+        tracks = new ArrayList<>();
+
+        tracks.add(new Track("Track 1", "Artist 1", R.drawable.t1));
+        tracks.add(new Track("Track 2", "Artist 2", R.drawable.t2));
+        tracks.add(new Track("Track 3", "Artist 3", R.drawable.t3));
+        tracks.add(new Track("Track 4", "Artist 4", R.drawable.t4));
+    }
+
+    BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String action = intent.getExtras().getString("actionname");
+
+            switch (action){
+                case CreateNotification.ACTION_PREVIUOS:
+                    onTrackPrevious();
+                    break;
+                case CreateNotification.ACTION_PLAY:
+                    if (isPlaying){
+                        onTrackPause();
+                    } else {
+                        onTrackPlay();
+                    }
+                    break;
+                case CreateNotification.ACTION_NEXT:
+                    onTrackNext();
+                    break;
+            }
+        }
+    };
+
+    @Override
+    public void onTrackPrevious() {
+
+        position--;
