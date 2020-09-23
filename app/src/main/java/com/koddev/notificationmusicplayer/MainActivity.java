@@ -109,3 +109,37 @@ public class MainActivity extends AppCompatActivity implements Playable {
     public void onTrackPrevious() {
 
         position--;
+        CreateNotification.createNotification(MainActivity.this, tracks.get(position),
+                R.drawable.ic_pause_black_24dp, position, tracks.size()-1);
+        title.setText(tracks.get(position).getTitle());
+
+    }
+
+    @Override
+    public void onTrackPlay() {
+
+        CreateNotification.createNotification(MainActivity.this, tracks.get(position),
+                R.drawable.ic_pause_black_24dp, position, tracks.size()-1);
+        play.setImageResource(R.drawable.ic_pause_black_24dp);
+        title.setText(tracks.get(position).getTitle());
+        isPlaying = true;
+
+    }
+
+    @Override
+    public void onTrackPause() {
+
+        CreateNotification.createNotification(MainActivity.this, tracks.get(position),
+                R.drawable.ic_play_arrow_black_24dp, position, tracks.size()-1);
+        play.setImageResource(R.drawable.ic_play_arrow_black_24dp);
+        title.setText(tracks.get(position).getTitle());
+        isPlaying = false;
+
+    }
+
+    @Override
+    public void onTrackNext() {
+
+        position++;
+        CreateNotification.createNotification(MainActivity.this, tracks.get(position),
+                R.drawable.ic_pause_black_24dp, position, tracks.size()-1);
