@@ -143,3 +143,17 @@ public class MainActivity extends AppCompatActivity implements Playable {
         position++;
         CreateNotification.createNotification(MainActivity.this, tracks.get(position),
                 R.drawable.ic_pause_black_24dp, position, tracks.size()-1);
+        title.setText(tracks.get(position).getTitle());
+
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
+            notificationManager.cancelAll();
+        }
+
+        unregisterReceiver(broadcastReceiver);
+    }
+}
