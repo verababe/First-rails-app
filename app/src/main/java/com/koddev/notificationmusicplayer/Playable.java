@@ -1,1 +1,3 @@
-package com.koddev.no
+package com.koddev.notificationmusicplayer;
+
+pub
