@@ -1,3 +1,4 @@
 package com.koddev.notificationmusicplayer;
 
-pub
+public interface Playable {
+   
