@@ -6,4 +6,6 @@ import android.os.IBinder;
 
 import androidx.annotation.Nullable;
 
-public class OnClearFromRecentService extend
+public class OnClearFromRecentService extends Service {
+    @Nullable
+  
