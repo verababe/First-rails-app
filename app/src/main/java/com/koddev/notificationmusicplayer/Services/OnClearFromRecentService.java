@@ -9,4 +9,4 @@ import androidx.annotation.Nullable;
 public class OnClearFromRecentService extends Service {
     @Nullable
     @Override
-    public IBinder 
+    public IBinder onBind(Intent intent)
