@@ -13,4 +13,5 @@ public class OnClearFromRecentService extends Service {
         return null;
     }
 
- 
+    @Override
+    public int onS
