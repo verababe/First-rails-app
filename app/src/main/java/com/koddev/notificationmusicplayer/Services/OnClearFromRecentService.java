@@ -14,4 +14,4 @@ public class OnClearFromRecentService extends Service {
     }
 
     @Override
-    public int onS
+    public int onStartCommand(Intent inten
