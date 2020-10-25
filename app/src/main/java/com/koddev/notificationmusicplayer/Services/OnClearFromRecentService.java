@@ -16,3 +16,7 @@ public class OnClearFromRecentService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         return START_NOT_STICKY;
+    }
+
+    @Override
+    publi
