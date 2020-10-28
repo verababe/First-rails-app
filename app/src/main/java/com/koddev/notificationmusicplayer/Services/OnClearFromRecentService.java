@@ -20,4 +20,8 @@ public class OnClearFromRecentService extends Service {
 
     @Override
     public void onDestroy() {
-        super.onDe
+        super.onDestroy();
+    }
+
+    @Override
+    public void
