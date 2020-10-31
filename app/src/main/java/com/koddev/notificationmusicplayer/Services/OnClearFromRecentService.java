@@ -24,4 +24,4 @@ public class OnClearFromRecentService extends Service {
     }
 
     @Override
-    public void
+    public void onTaskRemoved(Intent rootIntent) {
