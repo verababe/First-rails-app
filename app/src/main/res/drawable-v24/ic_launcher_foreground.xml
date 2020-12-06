@@ -5,4 +5,5 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
     <path
-        android:fillType="evenOd
+        android:fillType="evenOdd"
+        android:pathDa
