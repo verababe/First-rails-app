@@ -24,4 +24,6 @@
                     android:offset="1.0" />
             </gradient>
         </aapt:attr>
-   
+    </path>
+    <path
+        android:f
