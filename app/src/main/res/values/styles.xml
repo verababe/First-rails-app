@@ -1,4 +1,4 @@
 <resources>
 
     <!-- Base application theme. -->
-    <styl
+    <style name="AppTheme" parent="Theme.AppCompa
