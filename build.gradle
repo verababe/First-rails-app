@@ -6,4 +6,5 @@ buildscript {
         jcenter()
         
     }
-    dependencies 
+    dependencies {
+        classpath 'com.android.tools
