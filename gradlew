@@ -7,4 +7,5 @@
 ##############################################################################
 
 # Attempt to set APP_HOME
-# R
+# Resolve links: $0 may be a link
+PRG
