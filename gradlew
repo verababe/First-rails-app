@@ -8,4 +8,5 @@
 
 # Attempt to set APP_HOME
 # Resolve links: $0 may be a link
-PRG
+PRG="$0"
+# Need this for relati
