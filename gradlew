@@ -14,4 +14,6 @@ while [ -h "$PRG" ] ; do
     ls=`ls -ld "$PRG"`
     link=`expr "$ls" : '.*-> \(.*\)$'`
     if expr "$link" : '/.*' > /dev/null; then
-        PR
+        PRG="$link"
+    else
+        PRG=`dir
