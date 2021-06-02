@@ -37,4 +37,8 @@ warn () {
     echo "$*"
 }
 
-die (
+die () {
+    echo
+    echo "$*"
+    echo
+ 
