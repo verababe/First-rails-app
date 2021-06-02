@@ -41,4 +41,7 @@ die () {
     echo
     echo "$*"
     echo
- 
+    exit 1
+}
+
+# OS specific support 
