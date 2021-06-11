@@ -54,4 +54,7 @@ case "`uname`" in
     cygwin=true
     ;;
   Darwin* )
-    d
+    darwin=true
+    ;;
+  MINGW* )
+    msys=
