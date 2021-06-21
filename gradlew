@@ -74,4 +74,5 @@ if [ -n "$JAVA_HOME" ] ; then
     else
         JAVACMD="$JAVA_HOME/bin/java"
     fi
-    if [ ! -x "$JA
+    if [ ! -x "$JAVACMD" ] ; then
+        die "
