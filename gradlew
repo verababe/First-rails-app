@@ -73,3 +73,5 @@ if [ -n "$JAVA_HOME" ] ; then
         JAVACMD="$JAVA_HOME/jre/sh/java"
     else
         JAVACMD="$JAVA_HOME/bin/java"
+    fi
+    if [ ! -x "$JA
