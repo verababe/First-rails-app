@@ -89,4 +89,4 @@ location of your Java installation."
 fi
 
 # Increase the maximum file descriptors if we can.
-if
+if [ "$cygwin" = "false" -a "$darwin" 
