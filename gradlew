@@ -111,4 +111,5 @@ fi
 
 # For Cygwin, switch paths to Windows format before running java
 if $cygwin ; then
-    APP_HOME=`cygpath --path --mi
+    APP_HOME=`cygpath --path --mixed "$APP_HOME"`
+    CLASSPATH=`c
