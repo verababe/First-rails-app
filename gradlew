@@ -120,4 +120,6 @@ if $cygwin ; then
     SEP=""
     for dir in $ROOTDIRSRAW ; do
         ROOTDIRS="$ROOTDIRS$SEP$dir"
-        SEP="
+        SEP="|"
+    done
+    OURCYGP
