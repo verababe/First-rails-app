@@ -140,4 +140,6 @@ if $cygwin ; then
         fi
         i=$((i+1))
     done
-    case 
+    case $i in
+        (0) set -- ;;
+        (
