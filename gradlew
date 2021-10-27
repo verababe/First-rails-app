@@ -154,3 +154,6 @@ if $cygwin ; then
     esac
 fi
 
+# Escape application args
+save () {
+  
