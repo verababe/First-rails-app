@@ -156,4 +156,4 @@ fi
 
 # Escape application args
 save () {
-  
+    for i do printf %s\\n "$i"
