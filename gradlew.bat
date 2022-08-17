@@ -1,1 +1,2 @@
-@if "%DEBUG
+@if "%DEBUG%" == "" @echo off
+@rem
