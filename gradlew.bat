@@ -5,4 +5,4 @@
 @rem
 @rem ##########################################################################
 
-@rem Set l
+@rem Set local scope for the variables with windows NT s
