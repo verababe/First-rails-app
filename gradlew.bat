@@ -9,4 +9,5 @@
 if "%OS%"=="Windows_NT" setlocal
 
 set DIRNAME=%~dp0
-if "%D
+if "%DIRNAME%" == "" set DIRNAME=.
+set A
