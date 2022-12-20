@@ -13,4 +13,4 @@ if "%DIRNAME%" == "" set DIRNAME=.
 set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%
 
-@rem Add default JVM options here. You can also use JAVA
+@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM op
