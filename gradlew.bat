@@ -60,4 +60,5 @@ if "x%~1" == "x" goto execute
 
 set CMD_LINE_ARGS=%*
 
-:exec
+:execute
+@rem Setup the command 
