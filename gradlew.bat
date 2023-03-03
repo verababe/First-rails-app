@@ -51,4 +51,5 @@ goto fail
 if not "%OS%" == "Windows_NT" goto win9xME_args
 
 :win9xME_args
-@rem Slurp the comman
+@rem Slurp the command line arguments.
+set CMD_LIN
