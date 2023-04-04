@@ -1,2 +1,2 @@
 include ':app'
-rootPr
+rootProject.name='NotificationMusicPlayer'
